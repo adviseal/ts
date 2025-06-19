@@ -17,7 +17,7 @@ btn.addEventListener('click', () => {
     }
     const grado = snap.data().grado;  // "1"… "6"
     const grupo = snap.data().grupo;  // "A"… "G"
-    
+    //
     window.location.href = `${grado}${grupo}.html`;
   });
 });
